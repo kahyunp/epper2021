@@ -16,7 +16,7 @@ def solution(input):
             cnt+=1
     answer+=chr(a+cnt)
     print(answer)
-    
+
 x=input()
 solution(x)
 
