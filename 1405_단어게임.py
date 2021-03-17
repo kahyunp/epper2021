@@ -9,6 +9,7 @@ def solution(k,n):
         word.append(wrd)
     for i in range(n):
         quiz.append(input())
+        
     word=sorted(word)
     for i in word:
         dic[i]=0
